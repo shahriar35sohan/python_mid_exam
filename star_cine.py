@@ -17,7 +17,7 @@ class Hall:
         for i in range(self.__rows):
             col = []
             for j in range(self.__cols):
-                col.append([0])
+                col.append(0)
             self.__seats[id].append(col)
             
     
